@@ -8,8 +8,12 @@ def summon_captain_planet(elements)
   return caps
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(arr)
+  arr.each {|word| 
+  if word.length > 4 
+    return true
+  else
+    return false}
 end
 
 def find_the_cheese# code an argument here
