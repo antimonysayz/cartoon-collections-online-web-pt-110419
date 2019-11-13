@@ -13,7 +13,9 @@ def long_planeteer_calls(arr)
   if word.length > 4 
     return true
   else
-    return false}
+    return false
+  end
+  }
 end
 
 def find_the_cheese# code an argument here
