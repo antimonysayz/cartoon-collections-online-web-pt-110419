@@ -14,6 +14,6 @@ end
 
 def find_the_cheese(arr1)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  arr1.find? {|cheese| cheese == "cheddar" || cheese == "gouda" || "camembert"}
+  arr1.find {|cheese| cheese == "cheddar" || cheese == "gouda" || "camembert"}
   
 end
