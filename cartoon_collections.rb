@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(elements)
   caps = []
-  elements.each {|ele| caps << "#{ele.upcase}"}
+  elements.each {|ele| caps << "#{ele.capitalize}"}
   return caps
 end
 
