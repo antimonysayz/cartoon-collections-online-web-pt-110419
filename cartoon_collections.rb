@@ -5,7 +5,7 @@ end
 def summon_captain_planet(elements)
   caps = []
   elements.each {|ele| caps << "#{ele.upcase}"}
-  caps
+  return caps
 end
 
 def long_planeteer_calls# code an argument here
