@@ -9,7 +9,7 @@ def summon_captain_planet(elements)
 end
 
 def long_planeteer_calls(arr)
-  arr.each {|word| 
+  arr.any {|word| word.length > 4
   
   }
 end
